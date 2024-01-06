@@ -156,11 +156,20 @@ img {
     transition: backgroud 0.3s;
 }
 
-.nav{
-    height: var(--header-height);
+.nav{ 
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.nav-menu, .nav-list{ 
+    display: flex;
+    color: white;
+}
+
+.nav-link{
+    color: white;
+    margin-left: 15px;
 }
 
 .nav-logo, .nav-toggle{
