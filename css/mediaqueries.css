@@ -1,14 +1,8 @@
-@media screen and (max-width: 1023px){
-    .nav-menu{
-        position: fixed;
-        background-color: hsla(180, 12%, 8%, .8);
-        backdrop-filter: blur(32px);
-        -webkit-backdrop-filter: blur(32px);
-        top: 0;
-        right: 0;
-        width: 80%;
-        height: 100%;
-        border-left: 2px solid hsl(79, 6%, 64%);
-        transition: right .3s;
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+    #hamburger-nav {
+      display: flex;
     }
 }
