@@ -276,3 +276,24 @@ h4{
 }
 
 /* index.html - main section - speaciality */
+
+.speciality-content i{
+  margin-right: 5px;
+}
+
+/* index.html - footer section */
+
+.footer-nav ul{
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav ul li{
+  list-style: none;
+}
+
+.footer-nav a{
+  color: black;
+  font-size: 14px;
+  margin-left: 15px;
+}

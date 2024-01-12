@@ -4,11 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="shortcut icon"
-      href="assets/logo.png"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
 
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
@@ -18,65 +14,67 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/mediaqueries.css" />
 
-
-    <script src="https://kit.fontawesome.com/7410428b00.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/7410428b00.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Hustler</title>
   </head>
   <body>
-      <header id="header">
-        <nav id="desktop-nav">
-          <a href="./#" class="logo">
-            <img src="assets/logo.png" alt="Hustler">
-          </a>
-          <div class="navbar">
-            <ul class="nav-links">
-              <li><a href="./#">Home</a></li>
-              <li><a href="./#about">About</a></li>
-              <li><a href="./#services">Services</a></li>
-              <li><a href="./#speciality">Speciality</a></li>
-              <li><a href="./#plans">Plans</a></li>
-              <li><a href="./#contact">Contact</a></li>
-            </ul>
+    <header id="header">
+      <nav id="desktop-nav">
+        <a href="./#" class="logo">
+          <img src="assets/logo.png" alt="Hustler" />
+        </a>
+        <div class="navbar">
+          <ul class="nav-links">
+            <li><a href="./#">Home</a></li>
+            <li><a href="./#about">About</a></li>
+            <li><a href="./#services">Services</a></li>
+            <li><a href="./#speciality">Speciality</a></li>
+            <li><a href="./#plans">Plans</a></li>
+            <li><a href="./#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">
+          <img src="assets/logo.png" alt="Hustler" />
+        </div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
-        </nav>
-        <nav id="hamburger-nav">
-          <div class="logo">
-            <img src="assets/logo.png" alt="Hustler">
+          <div class="menu-links">
+            <li><a href="./#" onclick="toggleMenu()">Home</a></li>
+            <li><a href="./#about" onclick="toggleMenu()">About</a></li>
+            <li>
+              <a href="./#services" onclick="toggleMenu()">Services</a>
+            </li>
+            <li>
+              <a href="./#speciality" onclick="toggleMenu()">Speciality</a>
+            </li>
+            <li><a href="./#plans" onclick="toggleMenu()">Plans</a></li>
+            <li><a href="./#contact" onclick="toggleMenu()">Contact</a></li>
           </div>
-          <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <div class="menu-links">
-              <li><a href="./#" onclick="toggleMenu()">Home</a></li>
-              <li><a href="./#about" onclick="toggleMenu()">About</a></li>
-              <li>
-                <a href="./#services" onclick="toggleMenu()">Services</a>
-              </li>
-              <li>
-                <a href="./#speciality" onclick="toggleMenu()">Speciality</a>
-              </li>
-              <li><a href="./#plans" onclick="toggleMenu()">Plans</a></li>
-              <li><a href="./#contact" onclick="toggleMenu()">Contact</a></li>
-            </div>
-          </div>
-        </nav>
-        <div class="content overlay">
-          <h1>INTRODUCING HUSTLER</h1>
-          <h5>Fitness Centre</h5>
-          <p>"Transforming Bodies, Building Lives."</p>
-          <div class="btn-container">
+        </div>
+      </nav>
+      <div class="content overlay">
+        <h1>INTRODUCING HUSTLER</h1>
+        <h5>Fitness Centre</h5>
+        <p>"Transforming Bodies, Building Lives."</p>
+        <div class="btn-container">
           <button class="btn btn-color-1">Contact</button>
         </div>
-        </div>
-        <video autoplay muted loop id="header-bg">
-          <source src="assets/header-bg.mp4" type="video/mp4">
-          Your browser does not support HTML5 video.
-        </video>
-      </header>
+      </div>
+      <video autoplay muted loop id="header-bg">
+        <source src="assets/header-bg.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+    </header>
 
     <main id="main">
       <section class="about section" id="about">
@@ -84,27 +82,57 @@
         <h4>Your Body, the Way You Want It</h4>
         <div class="container">
           <div class="about-content">
-            <p>Getting in shape shouldn't be a punishment. It's an amazing and empowering lifestyle decision that anyone can make. I believe in finding the pleasurable side of fitness; and while there may be a sore muscle or two along the way, the benefits of fitness are worth the challenge. I have developed my training regime by working with a variety of people, and constantly adapting my program to the needs of my new clients.</p> <br />
+            <p>
+              Getting in shape shouldn't be a punishment. It's an amazing and
+              empowering lifestyle decision that anyone can make. I believe in
+              finding the pleasurable side of fitness; and while there may be a
+              sore muscle or two along the way, the benefits of fitness are
+              worth the challenge. I have developed my training regime by
+              working with a variety of people, and constantly adapting my
+              program to the needs of my new clients.
+            </p>
+            <br />
             <div class="merits">
-            <p>
-              <strong><i class="fa-solid fa-circle-check"></i>Positive Perspective:</strong> You start by highlighting that getting in shape should be viewed positively, not as something negative or punitive. This sets the tone for a healthy mindset towards fitness.
-            </p>
-            <br />
-            <p>
-              <strong><i class="fa-solid fa-circle-check"></i>Empowering Lifestyle Decision:</strong> You express the idea that choosing to get in shape is a powerful decision that individuals can make for themselves. This implies that fitness is not just about physical changes but also about personal empowerment.
-            </p>
-            <br />
-            <p>
-              <strong><i class="fa-solid fa-circle-check"></i>Pleasurable Side of Fitness:</strong> You stress the importance of finding pleasure in fitness. This could mean enjoying the process of exercise, discovering activities you love, or experiencing the positive effects of a healthy lifestyle. The emphasis is on making the journey enjoyable.
-            </p>
-            <br />
-            <a class="btn-container" href="./#contact">
-              <button class="btn btn-color-1">Get In Touch</button>
-            </a>
+              <p>
+                <strong
+                  ><i class="fa-solid fa-circle-check"></i>Positive
+                  Perspective:</strong
+                >
+                You start by highlighting that getting in shape should be viewed
+                positively, not as something negative or punitive. This sets the
+                tone for a healthy mindset towards fitness.
+              </p>
+              <br />
+              <p>
+                <strong
+                  ><i class="fa-solid fa-circle-check"></i>Empowering Lifestyle
+                  Decision:</strong
+                >
+                You express the idea that choosing to get in shape is a powerful
+                decision that individuals can make for themselves. This implies
+                that fitness is not just about physical changes but also about
+                personal empowerment.
+              </p>
+              <br />
+              <p>
+                <strong
+                  ><i class="fa-solid fa-circle-check"></i>Pleasurable Side of
+                  Fitness:</strong
+                >
+                You stress the importance of finding pleasure in fitness. This
+                could mean enjoying the process of exercise, discovering
+                activities you love, or experiencing the positive effects of a
+                healthy lifestyle. The emphasis is on making the journey
+                enjoyable.
+              </p>
+              <br />
+              <a class="btn-container" href="./#contact">
+                <button class="btn btn-color-1">Get In Touch</button>
+              </a>
             </div>
           </div>
           <div class="about-img">
-            <img src="assets/portrait-2.jpg" alt="About Image">
+            <img src="assets/portrait-2.jpg" alt="About Image" />
           </div>
         </div>
       </section>
@@ -114,44 +142,64 @@
         <div class="service-container">
           <div class="service-item">
             <video autoplay muted loop class="workout">
-              <source src="assets/header-bg.mp4" type="video/mp4">
+              <source src="assets/header-bg.mp4" type="video/mp4" />
               Your browser does not support HTML5 video.
             </video>
             <div class="service-content">
               <h2>Stamina Building</h2>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum neque ex ut laboriosam unde, voluptatibus qui quaerat tempore deleniti harum fugiat, provident dicta nobis mollitia consequuntur deserunt veniam suscipit reprehenderit.</p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum neque ex ut laboriosam unde, voluptatibus qui quaerat
+                tempore deleniti harum fugiat, provident dicta nobis mollitia
+                consequuntur deserunt veniam suscipit reprehenderit.
+              </p>
             </div>
           </div>
           <div class="service-item">
-          <video autoplay muted loop class="workout">
-            <source src="assets/header-bg.mp4" type="video/mp4">
-            Your browser does not support HTML5 video.
-          </video>
-          <div class="service-content">
-            <h2>Getting In Shape</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum neque ex ut laboriosam unde, voluptatibus qui quaerat tempore deleniti harum fugiat, provident dicta nobis mollitia consequuntur deserunt veniam suscipit reprehenderit.</p>
-          </div>
-        </div>
-        <div class="service-item">
-          <video autoplay muted loop class="workout">
-            <source src="assets/header-bg.mp4" type="video/mp4">
-            Your browser does not support HTML5 video.
-          </video>
-          <div class="service-content">
-            <h2>Flexibile Training</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum neque ex ut laboriosam unde, voluptatibus qui quaerat tempore deleniti harum fugiat, provident dicta nobis mollitia consequuntur deserunt veniam suscipit reprehenderit.</p>
-          </div>
-        </div>
-            <div class="service-item">
-              <video autoplay muted loop class="workout">
-                <source src="assets/header-bg.mp4" type="video/mp4">
-                Your browser does not support HTML5 video.
-              </video>
-              <div class="service-content">
-                <h2>Flexibile Training</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum neque ex ut laboriosam unde, voluptatibus qui quaerat tempore deleniti harum fugiat, provident dicta nobis mollitia consequuntur deserunt veniam suscipit reprehenderit.</p>
-              </div>
+            <video autoplay muted loop class="workout">
+              <source src="assets/header-bg.mp4" type="video/mp4" />
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="service-content">
+              <h2>Getting In Shape</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum neque ex ut laboriosam unde, voluptatibus qui quaerat
+                tempore deleniti harum fugiat, provident dicta nobis mollitia
+                consequuntur deserunt veniam suscipit reprehenderit.
+              </p>
             </div>
+          </div>
+          <div class="service-item">
+            <video autoplay muted loop class="workout">
+              <source src="assets/header-bg.mp4" type="video/mp4" />
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="service-content">
+              <h2>Flexibile Training</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum neque ex ut laboriosam unde, voluptatibus qui quaerat
+                tempore deleniti harum fugiat, provident dicta nobis mollitia
+                consequuntur deserunt veniam suscipit reprehenderit.
+              </p>
+            </div>
+          </div>
+          <div class="service-item">
+            <video autoplay muted loop class="workout">
+              <source src="assets/header-bg.mp4" type="video/mp4" />
+              Your browser does not support HTML5 video.
+            </video>
+            <div class="service-content">
+              <h2>Flexibile Training</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum neque ex ut laboriosam unde, voluptatibus qui quaerat
+                tempore deleniti harum fugiat, provident dicta nobis mollitia
+                consequuntur deserunt veniam suscipit reprehenderit.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -161,14 +209,32 @@
         <div class="service-container">
           <div class="speciality">
             <video autoplay muted loop class="workout">
-              <source src="assets/yoga.mp4" type="video/mp4">
+              <source src="assets/yoga.mp4" type="video/mp4" />
               Your browser does not support HTML5 video.
             </video>
             <div class="speciality-content">
               <h2>Yoga Classes</h2>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum neque ex ut laboriosam unde, voluptatibus qui quaerat tempore deleniti harum fugiat, provident dicta nobis mollitia consequuntur deserunt veniam suscipit reprehenderit.</p>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum neque ex ut laboriosam unde, voluptatibus qui quaerat tempore deleniti harum fugiat, provident dicta nobis mollitia consequuntur deserunt veniam suscipit reprehenderit.</p>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum neque ex ut laboriosam unde, voluptatibus qui quaerat tempore deleniti harum fugiat, provident dicta nobis mollitia consequuntur deserunt veniam suscipit reprehenderit.</p>
+              <p>
+                <i class="fa-solid fa-shield-halved"></i>Lorem, ipsum dolor sit
+                amet consectetur adipisicing elit. Voluptatum neque ex ut
+                laboriosam unde, voluptatibus qui quaerat tempore deleniti harum
+                fugiat, provident dicta nobis mollitia consequuntur deserunt
+                veniam suscipit reprehenderit.
+              </p>
+              <p>
+                <i class="fa-solid fa-shield-halved"></i>Lorem, ipsum dolor sit
+                amet consectetur adipisicing elit. Voluptatum neque ex ut
+                laboriosam unde, voluptatibus qui quaerat tempore deleniti harum
+                fugiat, provident dicta nobis mollitia consequuntur deserunt
+                veniam suscipit reprehenderit.
+              </p>
+              <p>
+                <i class="fa-solid fa-shield-halved"></i>Lorem, ipsum dolor sit
+                amet consectetur adipisicing elit. Voluptatum neque ex ut
+                laboriosam unde, voluptatibus qui quaerat tempore deleniti harum
+                fugiat, provident dicta nobis mollitia consequuntur deserunt
+                veniam suscipit reprehenderit.
+              </p>
             </div>
           </div>
         </div>
@@ -177,7 +243,21 @@
       <section class="calculate section"></section>
     </main>
 
-    <footer class="footer section" id="footer"></footer>
+    <footer class="footer section" id="footer">
+      <div class="footer-nav">
+        <ul>
+          <li><a href="./#">Home</a></li>
+          <li><a href="./#about">About</a></li>
+          <li><a href="./#services">Services</a></li>
+          <li><a href="./#speciality">Speciality</a></li>
+          <li><a href="./#plans">Plans</a></li>
+          <li><a href="./#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <p>copyright © Akshita Sharma | Radiant Edge | 2024</p>
+      </div>
+    </footer>
 
     <script src=""></script>
 
