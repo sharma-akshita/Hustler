@@ -98,3 +98,9 @@
   }
 }
 
+@media screen and (max-width: 240px) {
+  .service-item{
+    width: 140px;
+  }  
+}
+
