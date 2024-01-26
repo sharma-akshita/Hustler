@@ -1,266 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
+  <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
 
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/mediaqueries.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
 
-    <script
-      src="https://kit.fontawesome.com/7410428b00.js"
-      crossorigin="anonymous"
-    ></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/mediaqueries.css" />
 
-    <title>Hustler</title>
-  </head>
-  <body>
-    <header id="header">
-      <nav id="desktop-nav">
-        <a href="./#" class="logo">
-          <img src="assets/logo.png" alt="Hustler" />
-        </a>
-        <div class="navbar">
-          <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#speciality">Speciality</a></li>
-            <li><a href="#plans">Plans</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-      <nav id="hamburger-nav">
-        <div class="logo">
-          <img src="assets/logo.png" alt="Hustler" />
-        </div>
-        <div class="hamburger-menu">
-          <div class="hamburger-icon" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <div class="menu-links">
-            <li><a href="./#" onclick="toggleMenu()">Home</a></li>
-            <li><a href="./#about" onclick="toggleMenu()">About</a></li>
-            <li>
-              <a href="./#services" onclick="toggleMenu()">Services</a>
-            </li>
-            <li>
-              <a href="./#speciality" onclick="toggleMenu()">Speciality</a>
-            </li>
-            <li><a href="./#plans" onclick="toggleMenu()">Plans</a></li>
-            <li><a href="./#contact" onclick="toggleMenu()">Contact</a></li>
-          </div>
-        </div>
-      </nav>
-      <div class="content overlay">
-        <h1>INTRODUCING HUSTLER</h1>
-        <h5>Fitness Centre</h5>
-        <p>"Transforming Bodies, Building Lives."</p>
-        <a class="btn-container" href="#contact">
-          <button class="btn btn-color-1">Contact</button>
-        </a>
-      </div>
-      <video autoplay muted loop id="header-bg">
-        <source src="assets/header-bg.mp4" type="video/mp4" />
-        Your browser does not support HTML5 video.
-      </video>
-    </header>
+  <script src="https://kit.fontawesome.com/7410428b00.js" crossorigin="anonymous"></script>
 
-    <main id="main">
-      <section class="about section" id="about">
-        <h1>About Hustler</h1>
-        <h4>Your Body, the Way You Want It</h4>
-        <div class="container">
-          <div class="about-content">
-            <p>
-              Getting in shape shouldn't be a punishment. It's an amazing and
-              empowering lifestyle decision that anyone can make. I believe in
-              finding the pleasurable side of fitness; and while there may be a
-              sore muscle or two along the way, the benefits of fitness are
-              worth the challenge. I have developed my training regime by
-              working with a variety of people, and constantly adapting my
-              program to the needs of my new clients.
-            </p>
-            <br />
-            <div class="merits">
-              <p>
-                <strong
-                  ><i class="fa-solid fa-circle-check"></i>Positive
-                  Perspective:</strong
-                >
-                You start by highlighting that getting in shape should be viewed
-                positively, not as something negative or punitive. This sets the
-                tone for a healthy mindset towards fitness.
-              </p>
-              <br />
-              <p>
-                <strong
-                  ><i class="fa-solid fa-circle-check"></i>Empowering Lifestyle
-                  Decision:</strong
-                >
-                You express the idea that choosing to get in shape is a powerful
-                decision that individuals can make for themselves. This implies
-                that fitness is not just about physical changes but also about
-                personal empowerment.
-              </p>
-              <br />
-              <p>
-                <strong
-                  ><i class="fa-solid fa-circle-check"></i>Pleasurable Side of
-                  Fitness:</strong
-                >
-                You stress the importance of finding pleasure in fitness. This
-                could mean enjoying the process of exercise, discovering
-                activities you love, or experiencing the positive effects of a
-                healthy lifestyle. The emphasis is on making the journey
-                enjoyable.
-              </p>
-              <br />
-              <a class="btn-container" href="#contact">
-                <button class="btn btn-color-1">Get In Touch</button>
-              </a>
-            </div>
-          </div>
-          <div class="about-img">
-            <img src="assets/portrait-2.jpg" alt="About Image" />
-          </div>
-        </div>
-      </section>
-      <section class="services section" id="services">
-        <h1>What We Offer</h1>
-        <h4>Fast Track to Fitness: Get Fit in No Time!</h4>
-        <div class="service-container">
-          <div class="service-item">
-            <video autoplay muted loop class="workout">
-              <source src="assets/header-bg.mp4" type="video/mp4" />
-              Your browser does not support HTML5 video.
-            </video>
-            <div class="service-content">
-              <h2>Stamina Building</h2>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatum neque ex ut laboriosam unde, voluptatibus qui quaerat
-                tempore deleniti harum fugiat, provident dicta nobis mollitia
-                consequuntur deserunt veniam suscipit reprehenderit.
-              </p>
-            </div>
-          </div>
-          <div class="service-item">
-            <video autoplay muted loop class="workout">
-              <source src="assets/header-bg.mp4" type="video/mp4" />
-              Your browser does not support HTML5 video.
-            </video>
-            <div class="service-content">
-              <h2>Getting In Shape</h2>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatum neque ex ut laboriosam unde, voluptatibus qui quaerat
-                tempore deleniti harum fugiat, provident dicta nobis mollitia
-                consequuntur deserunt veniam suscipit reprehenderit.
-              </p>
-            </div>
-          </div>
-          <div class="service-item">
-            <video autoplay muted loop class="workout">
-              <source src="assets/header-bg.mp4" type="video/mp4" />
-              Your browser does not support HTML5 video.
-            </video>
-            <div class="service-content">
-              <h2>Flexibile Training</h2>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatum neque ex ut laboriosam unde, voluptatibus qui quaerat
-                tempore deleniti harum fugiat, provident dicta nobis mollitia
-                consequuntur deserunt veniam suscipit reprehenderit.
-              </p>
-            </div>
-          </div>
-          <div class="service-item">
-            <video autoplay muted loop class="workout">
-              <source src="assets/header-bg.mp4" type="video/mp4" />
-              Your browser does not support HTML5 video.
-            </video>
-            <div class="service-content">
-              <h2>Flexibile Training</h2>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatum neque ex ut laboriosam unde, voluptatibus qui quaerat
-                tempore deleniti harum fugiat, provident dicta nobis mollitia
-                consequuntur deserunt veniam suscipit reprehenderit.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+  <title>Hustler</title>
+</head>
 
-      <section class="speciality section" id="speciality">
-        <h1>Our Speciality - Yoga</h1>
-        <h4>Yoga Harmony: Align Body, Mind, and Spirit!</h4>
-        <div class="service-container">
-          <div class="speciality">
-            <video autoplay muted loop class="workout">
-              <source src="assets/yoga.mp4" type="video/mp4" />
-              Your browser does not support HTML5 video.
-            </video>
-            <div class="speciality-content">
-              <h2>Yoga Classes</h2>
-              <p>
-                <i class="fa-solid fa-shield-halved"></i>Lorem, ipsum dolor sit
-                amet consectetur adipisicing elit. Voluptatum neque ex ut
-                laboriosam unde, voluptatibus qui quaerat tempore deleniti harum
-                fugiat, provident dicta nobis mollitia consequuntur deserunt
-                veniam suscipit reprehenderit.
-              </p>
-              <p>
-                <i class="fa-solid fa-shield-halved"></i>Lorem, ipsum dolor sit
-                amet consectetur adipisicing elit. Voluptatum neque ex ut
-                laboriosam unde, voluptatibus qui quaerat tempore deleniti harum
-                fugiat, provident dicta nobis mollitia consequuntur deserunt
-                veniam suscipit reprehenderit.
-              </p>
-              <p>
-                <i class="fa-solid fa-shield-halved"></i>Lorem, ipsum dolor sit
-                amet consectetur adipisicing elit. Voluptatum neque ex ut
-                laboriosam unde, voluptatibus qui quaerat tempore deleniti harum
-                fugiat, provident dicta nobis mollitia consequuntur deserunt
-                veniam suscipit reprehenderit.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="plans section" id="plans"></section>
-      <section class="calculate section"></section>
-    </main>
-
-    <footer class="footer section" id="footer">
-      <div class="footer-nav">
-        <ul>
+<body>
+  <header id="header">
+    <nav id="desktop-nav">
+      <a href="./#" class="logo">
+        <img src="assets/logo.png" alt="Hustler" />
+      </a>
+      <div class="navbar">
+        <ul class="nav-links">
           <li><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#speciality">Speciality</a></li>
-          <li><a href="#plans">Plans</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
-      <div class="copyright">
-        <p>copyright © Akshita Sharma | Radiant Edge | 2024</p>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">
+        <img src="assets/logo.png" alt="Hustler" />
       </div>
-    </footer>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="./#" onclick="toggleMenu()">Home</a></li>
+          <li><a href="./#about" onclick="toggleMenu()">About</a></li>
+          <li>
+            <a href="./#services" onclick="toggleMenu()">Services</a>
+          </li>
+          <li>
+            <a href="./#speciality" onclick="toggleMenu()">Speciality</a>
+          </li>
+          <li><a href="./#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <div class="content overlay">
+      <h1>INTRODUCING HUSTLER</h1>
+      <h5>Fitness Centre</h5>
+      <p>"Transforming Bodies, Building Lives."</p>
+      <a class="btn-container" href="#contact">
+        <button class="btn btn-color-1">Contact</button>
+      </a>
+    </div>
+    <video autoplay muted loop id="header-bg">
+      <source src="assets/header-bg.mp4" type="video/mp4" />
+      Your browser does not support HTML5 video.
+    </video>
+  </header>
 
-    <script src=""></script>
+  <main id="main">
+    <section class="about section" id="about">
+      <h1>About Hustler</h1>
+      <h4>Your Body, the Way You Want It</h4>
+      <div class="about-container">
+        <div class="about-content">
+          <p>
+            Getting in shape shouldn't be a punishment. It's an amazing and
+            empowering lifestyle decision that anyone can make. I believe in
+            finding the pleasurable side of fitness; and while there may be a
+            sore muscle or two along the way, the benefits of fitness are
+            worth the challenge. I have developed my training regime by
+            working with a variety of people, and constantly adapting my
+            program to the needs of my new clients.
+          </p>
+          <br />
+          <div class="merits">
+            <p>
+              <strong><i class="fa-solid fa-circle-check"></i>Positive
+                Perspective:</strong>
+              You start by highlighting that getting in shape should be viewed
+              positively, not as something negative or punitive. This sets the
+              tone for a healthy mindset towards fitness.
+            </p>
+            <br />
+            <p>
+              <strong><i class="fa-solid fa-circle-check"></i>Empowering Lifestyle
+                Decision:</strong>
+              You express the idea that choosing to get in shape is a powerful
+              decision that individuals can make for themselves. This implies
+              that fitness is not just about physical changes but also about
+              personal empowerment.
+            </p>
+            <br />
+            <p>
+              <strong><i class="fa-solid fa-circle-check"></i>Pleasurable Side of
+                Fitness:</strong>
+              You stress the importance of finding pleasure in fitness. This
+              could mean enjoying the process of exercise, discovering
+              activities you love, or experiencing the positive effects of a
+              healthy lifestyle. The emphasis is on making the journey
+              enjoyable.
+            </p>
+            <br />
+            <a class="btn-container" href="#contact">
+              <button class="btn btn-color-1">Get In Touch</button>
+            </a>
+          </div>
+        </div>
+        <div class="about-img">
+          <img src="assets/portrait-2.jpg" alt="About Image" />
+        </div>
+      </div>
+    </section>
+    
+    <section class="services section" id="services">
+      <h1>What We Offer</h1>
+      <h4>Fast Track to Fitness: Get Fit in No Time!</h4>
+      <div class="service-container">
+        <div class="service-item">
+          <video autoplay muted loop class="workout">
+            <source src="assets/header-bg.mp4" type="video/mp4" />
+            Your browser does not support HTML5 video.
+          </video>
+          <div class="service-content">
+            <h2>Stamina Building</h2>
+            <p>
+              Elevate your fitness journey with our gym's specialized stamina-building programs. Experience a blend of
+              dynamic workouts, targeted cardio exercises, and personalized training to boost endurance. Unleash your
+              full potential and achieve peak performance at Hustler.
+            </p>
+          </div>
+        </div>
+        <div class="service-item">
+          <video autoplay muted loop class="workout">
+            <source src="assets/header-bg.mp4" type="video/mp4" />
+            Your browser does not support HTML5 video.
+          </video>
+          <div class="service-content">
+            <h2>Getting In Shape</h2>
+            <p>
+              Transform your physique and hustle for results at our gym, where getting in shape is a lifestyle. Fuel
+              your ambition with intense workouts, personalized plans, and a supportive community. Hustle harder, get
+              fit faster - redefine your limits with us.
+            </p>
+          </div>
+        </div>
+        <div class="service-item">
+          <video autoplay muted loop class="workout">
+            <source src="assets/header-bg.mp4" type="video/mp4" />
+            Your browser does not support HTML5 video.
+          </video>
+          <div class="service-content">
+            <h2>Flexibile Training</h2>
+            <p>
 
-    <script src="js/script.js"></script>
-  </body>
+              Embrace dynamic progress with our flexible training programs at Hustler - where workouts adapt to your
+              lifestyle. Tailored to hustle with your schedule, our flexible training ensures consistency and results.
+              Hustle smarter, train flexibly, and achieve your fitness goals on your terms.
+            </p>
+          </div>
+        </div>
+<!--        <div class="service-item">
+          <video autoplay muted loop class="workout">
+            <source src="assets/header-bg.mp4" type="video/mp4" />
+            Your browser does not support HTML5 video.
+          </video>
+          <div class="service-content">
+            <h2>Recovery Oasis</h2>
+            <p>
+              Introducing a "Recovery Oasis" service, featuring amenities like sauna sessions, massage therapy, and recovery-focused classes. Elevate the overall gym experience by offering members a dedicated space to unwind, rejuvenate, and optimize post-workout recovery for enhanced performance and well-being.
+            </p>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <section class="speciality section" id="speciality">
+      <h1>Our Speciality - Yoga</h1>
+      <h4>Yoga Harmony: Align Body, Mind, and Spirit!</h4>
+      <div class="service-container">
+        <div class="speciality">
+          <video autoplay muted loop class="workout">
+            <source src="assets/yoga.mp4" type="video/mp4" />
+            Your browser does not support HTML5 video.
+          </video>
+          <div class="speciality-content">
+            <h2>Yoga Classes</h2>
+            <p>
+              <i class="fa-solid fa-shield-halved"></i><strong>Mindful Practice: </strong>Immerse yourself in our yoga classes designed to promote physical well-being and mental tranquility. Our experienced instructors guide you through mindful poses and breathing techniques, fostering a holistic approach to fitness.
+            </p>
+            <p>
+              <i class="fa-solid fa-shield-halved"></i><strong>Stress Relief: </strong>Experience the transformative power of yoga in relieving stress and enhancing overall mental health. Our classes provide a serene environment where you can unwind, release tension, and cultivate a sense of balance in both body and mind.
+            </p>
+            <p>
+              <i class="fa-solid fa-shield-halved"></i><strong>Personalized Guidance: </strong>Receive personalized attention from our skilled yoga instructors who cater to individual needs and goals. Whether you're aiming for increased flexibility, stress reduction, or overall fitness, our instructors are dedicated to helping you achieve your objectives.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="calculate section">
+      <div class="calc-container container grid">
+        <h1>CALCULATE <br /> 
+          YOUR BMI</h1>
+        <div class="calc-content">
+          <p class="calc-desc">The Body Mass Index (BMI) calculator calculates body mass index from your weight and height.
+          </p>
+          <form action="" class="calc-form" id="calc-form">
+            <div class="calc-box">
+              <input type="number" placeholder="Height" class="calc-input" id="calc-cm">
+              <label for="" class="calc-label">cm</label>
+            </div>
+            <div class="calc-box">
+              <input type="number" placeholder="Weight" class="calc-input" id="calc-kg">
+              <label for="" class="calc-label">kg</label>
+            </div>
+
+            <button type="submit" class="button button-flex">Calculate Now <i class="ri-arrow-right-line"></i></button>
+          </form>
+
+          <p class="calc-msg" id="calc-msg"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- <footer class="footer section" id="footer">
+    <div class="footer-nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#speciality">Speciality</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="copyright">
+      <p>copyright © Akshita Sharma | Radiant Edge | 2024</p>
+    </div>
+  </footer>
+-->
+  <script src="js/script.js"></script>
+</body>
+
 </html>
